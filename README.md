@@ -47,25 +47,6 @@ python app.py
 
 5. **Open your browser:** Navigate to `http://localhost:7860`
 
-### Option 2: Deploy to Render (Recommended)
-
-1. **Fork this repository** to your GitHub account
-
-2. **Connect to Render:**
-   - Go to [render.com](https://render.com)
-   - Sign up/login with your GitHub account
-   - Click "New +" → "Web Service"
-   - Connect your forked repository
-
-3. **Configure deployment:**
-   - **Build Command:** `pip install -r requirements.txt`
-   - **Start Command:** `python start.py`
-   - **Environment:** Python 3
-   - **Plan:** Free (sufficient for testing)
-
-4. **Deploy:** Click "Create Web Service"
-
-Your app will be live at: `https://your-app-name.onrender.com`
 
 ## 📝 Usage
 
